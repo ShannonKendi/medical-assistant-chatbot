@@ -1,0 +1,588 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Good afternoon",
+        "Hello",
+        "Hi there",
+        "Hello there",
+        "Good day"
+      ],
+      "responses": [
+        "Hi! thanks for visiting! My name is Doc, your virtual medical assistant! How can I help you today?",
+        "Hi there! I'm Doc and I'm here to help! what can I do for you?",
+        "Hi there! My name is Doc and I'll be your virtual medical assistant today. How may I help?",
+        "Hello there! My name is Doc and I'll be your virtual medical assistant today. How can I help you today?",
+        "Hello there! I'm Doc and I'm here to help! what can I do for you?",
+        "Hello there! My name is Doc and I'll be assisting you today. How may I be of service?",
+        "Hi there! thanks for visiting! My name is Doc, your virtual medical assistant! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?",
+        "whats your name?",
+        "who are you?"
+      ],
+      "responses": [
+        "My name is Doc, your virtual medical assistant!",
+        "I'm Doc and I'm here to help!",
+        "My name is Doc and I'll be your virtual medical assistant today.",
+        "My name is Doc and I'll be assisting you today."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye",
+        "Goodnight"
+      ],
+      "responses": [
+        "See you later, thanks for visiting!",
+        "Have a nice day!",
+        "Bye! Come back again soon!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!",
+        "Thx",
+        "No thank you",
+        "No thank you thats all",
+        "Thank you thats all"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Happy to be of service!",
+        "Dont mention it! That's what Im here for!",
+        "Happy to help!",
+        "Helping you is always my pleasure!",
+        "If you need anything else, just let me know!",
+        "You're most welcome!"
+      ]
+    },
+    {
+      "tag": "State",
+      "patterns": [
+        "How are you?",
+        "How have you been?",
+        "Are you good?",
+        "Are you okay?",
+        "How are you feeling?"
+      ],
+      "responses": [
+        "I'm doing great! How can I help you?",
+        "I'm good! Thanks for asking! Now tell me how can I help you?",
+        "I'm doing just fine! How can I help you?",
+        "I'm doing great! How can I be of service to you?",
+        "I'm good! Thanks for asking! Now tell me How can I be of service to you?",
+        "I'm doing just fine! How can I be of service to you?"
+      ]
+    },
+    {
+      "tag": "Help",
+      "patterns": [
+        "Can you help me?",
+        "I need your help",
+        "I need your assistance",
+        "I need some help",
+        "I need some assistance"
+      ],
+      "responses": [
+        "Sure! I can help you! Just ask me about an illness you want to learn more about!",
+        "That's what I'm here for! How can I help you?",
+        "Sure! Just ask me about an illness!",
+        "That's what I'm here for! Just ask me about an illness!"
+      ]
+    },
+    {"tag": "corona",
+      "patterns": [
+        "what is corona?", 
+        "what is covid?", 
+        "what is covid19?",
+        "what is covid-19?",
+        "give me information about covid19",
+        "give me information about covid",
+        "give me information about corona",
+        "Tell me about covid",
+        "Tell me about corona",
+        "Tell me about covid-19",
+        "I want to know more about covid",
+        "I want to know more about corona",
+        "I want to know more about covid-19",
+        "I want to learn more about covid",
+        "I want to learn more about covid-19",
+        "I want to learn more about corona"
+      ],
+      "responses": ["Coronaviruses are a group of viruses that play a role in more severe illnesses including pneumonia and the common cold. It has the following signs: Fever, dry cough, tiredness, sore throat, loss of taste or smell, and can be treated with Vaccine. Is there anything else I can help you with?",
+      "Coronaviruses are a family of viruses that cause more serious illnesses such as pneumonia and the common cold. It has the following characteristics:  fever, dry cough, tiredness, sore throat, and loss of taste or smell. Remdesivir may be used to treat coronavirus. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Influenza",
+      "patterns": [
+        "what is influenza?", 
+        "what is the influenza?",
+        "what is the flu?", 
+        "give me information about influenza", 
+        "give me information about the flu", 
+        "Tell me about the flu",
+        "Tell me about influenza",
+        "I want to know more about the flu",
+        "I want to know more about influenza",
+        "I want to learn more about influenza",
+        "I want to learn more about the flu"
+      ],
+      "responses": [
+        "Influenza is an infectious disease caused by a virus that is can occur easily, the symptoms are: fever, sore throat, runny nose, cough and headaches. You can take Tamiflu. Is there anything else I can help you with?",
+        "Influenza is a bacterium viral disease caused by a virus that is can occur easily, the symptoms are: fever, sore throat, runny nose, cough and headaches. You can take Xofluza. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Rabies",
+      "patterns": [
+        "what is rabies?",  
+        "what is the rabies?",  
+        "give me information about rabies", 
+        "Tell me about rabies",
+        "I want to know more about rabies",
+        "I want to learn more about rabies"
+      ],
+      "responses": [
+        "Rabies is a lethal infection from the saliva of an animal, the symptoms are: fever, headaches, vomiting, excessive salvation and hyperactivity. You can take an injection shot. Is there anything else I can help you with?",
+        "Rabies is when you get bitten by a vicious animal, the symptoms are: fever, headaches, vomiting, excessive salvation and hyperactivity. You can take an injection shot. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Ebola",
+      "patterns": [
+        "what is ebola?", 
+        "give me information about ebola", 
+        "is ebola a virus?",
+        "Tell me about ebola",
+        "I want to know more about ebola",
+        "I want to learn more about ebola"
+      ],
+      "responses": ["Ebola is a haemorrhagic fever in humans and certain mammals, symptoms are: fever, weakness, vomiting, stomach pain and unexplained bleeding. You can take inmazeb. Is there anything else I can help you with?",
+      "Ebola is a serious matter and is sometimes lethal as it is a fever that is unexplained, symptoms are: fever, weakness, vomiting, stomach pain and unexplained bleeding. You can take inmazeb(injection). Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Hepatitis",
+      "patterns": [
+        "what is hepatitis?",
+        "give me information about hepatitis", 
+        "Tell me about hepatitis",
+        "I want to know more about hepatitis",
+        "I want to learn more about hepatitis"
+      ],
+      "responses": ["Hepatitis is contracting a disease that permanently scars the liver, such as liver failure, liver cancer or cirrhosis, the symptoms are: abdominal pain, weakness, fever, yellowing of your skin and the whites of your eyes and loss of appetite. You can take baraclude. Is there anything else I can help you with?",
+      "Hepatitis is a condition that causes permanent scarring of the liver, such as liver damage, cancer, or cirrhosis, the symptoms are: abdominal pain, weakness, fever, yellowing of your skin and the whites of your eyes and loss of appetite. You can take Viread. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Common cold",
+      "patterns": [
+        "what is the common cold?", 
+        "what is the cold?",
+        "give me information about the common cold",  
+        "give me information about the cold",
+        "Tell me about the common cold",
+        "I want to know more about the common cold",
+        "I want to learn more about the common cold"
+      ],
+      "responses": ["Common cold is a bacterial inflammation of the nose and throat, the symptoms are: runny nose, cough, body ache, feeling unwell and sneezing. You can take panadol cold and flu. Is there anything else I can help you with?",
+      "Common cold is a common feeling of being unwell in the nose and throat, the symptoms are: runny nose, cough, body ache, feeling unwell and sneezing. You can take ibuprofen. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "dengue",
+      "patterns": [
+        "What is dengue fever?",
+        "what is dengue?", 
+        "Give me information about dengue",
+        "Give me information about dengue fever", 
+        "tell me about the dengue fever", 
+        "tell me about the dengue fever", 
+        "what does dengue means?", 
+        "what does dengue fever mean?", 
+        "define dengue fever", 
+        "define dengue"
+      ],
+      "responses": ["Dengue fever is a virus spread by mosquitos that causes damaged and leaky blood vessels, which can result in death. Headache, Vomiting, Muscle, bone, or joint pain ,Rash (skin inflammation) Swollen glands are all signs for this disease. Seronegative will help you with this. Is there anything else I can help you with?"]
+    },
+    {"tag": "Norovirus",
+      "patterns": [
+        "What is Norovirus?",
+        "what is stomach flu?",
+        "Give me information about Norovirus",
+        "Give me information about stomach flu", 
+        "tell me about Norovirus", 
+        "tell me about the stomach flu", 
+        "what does Norovirus mean?", 
+        "what does stomach flu mean?", 
+        "define Norovirus",
+        "define stomach flu"
+      ],
+      "responses": ["Norovirus is a highly infectious virus that causes severe vomiting and diarrhea in its victims. Its symptoms include: Diarrhea, Vomiting, Nausea, Stomach pain, Muscle pain. It can be treated by Kao lectrolyte. Is there anything else I can help you with?",
+      "Norovirus is a highly contagious virus that infects people and causes extreme vomiting and diarrhea. Diarrhea, vomiting, nausea, stomach pain, and muscle pain are some of the symptoms. Oralyte may be used to treat it. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Diabetes2",
+      "patterns": [
+        "What is type 2 Diabetes?", 
+        "Give me information about type 2 Diabetes",
+        "tell me about type 2 Diabetes", 
+        "what does type 2 Diabetes mean?", 
+        "type 2 Diabetes", 
+        "define type 2 Diabetes"
+      ],
+      "responses": ["Diabetes 2: Using sugar (glucose) as a fuel impairs the body's ability to control and use it. The signs are: Weight loss, Fatigue, Blurred vision, Frequent urination. Increased thirst and the treatment are Metformin. Is there anything else I can help you with?",
+      "Diabetes 2: The body's ability to control and use sugar (glucose) is impaired when it is used as a fuel. Weakness, fatigue, and weight loss are some of the warning signs. Frequent urination, blurred vision Thirst increases. Its treatment is Insulin. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "CKD",
+      "patterns": [
+        "What is chronic kidney disease?",
+        "what is CKD?", 
+        "Give me information about chronic kidney disease",
+        "Give me information about CKD", 
+        "tell me about chronic kidney disease", 
+        "tell me about the CKD", 
+        "what does chronic kidney disease mean?", 
+        "what does CKD mean?", 
+        "define chronic kidney disease", 
+        "define CKD"
+      ],
+      "responses": ["Chronic kidney disease (CKD): This damage causes waste to build up in your body, which can lead to other health problems. Symptoms include weight loss and poor appetite, itchy skin, blood in your pee (urine), shortness of breath. Swollen ankles, feet, or hands. Its treatment is angiotensin-converting enzyme. Is there anything else I can help you with?",
+      "Chronic kidney disease (CKD): When your kidneys are damaged, waste builds up in your body, causing other health issues. Weight loss and a lack of appetite are common symptoms, as are itchy skin, blood in the urine, and shortness of breath. ankles, feet, or hands that are swollen. It can be treated by: Statins. Is there anything else I can help you with?"
+      ]
+    },
+    {
+      "tag": "cancer_general",
+      "patterns": [
+        "What is cancer?",
+        "Tell me about cancer",
+        "Explain cancer types",
+        "How does cancer develop?"
+      ],
+      "responses": [
+        "Cancer is a group of diseases characterized by the uncontrolled growth and spread of abnormal cells. It can develop in almost any organ or tissue of the body and has various types, each with its unique characteristics and treatment approaches."
+      ]
+    },
+    {
+      "tag": "cancer_types",
+      "patterns": [
+        "Tell me about lung cancer",
+        "What are the types of breast cancer?",
+        "Explain prostate cancer",
+        "What are the subtypes of leukemia?",
+        "Different types of skin cancer?"
+      ],
+      "responses": [
+        "Cancer types include lung cancer, breast cancer, prostate cancer, leukemia, skin cancer, among others. Each type has specific subtypes and characteristics."
+      ]
+    },
+    {
+      "tag": "cancer_symptoms",
+      "patterns": [
+        "Persistent coughing, chest pain, shortness of breath, and coughing up blood.",
+        "Lump or thickening in the breast or underarm area, changes in breast size or shape, nipple changes or discharge.",
+        "Difficulty urinating, weak or interrupted urine flow, blood in the urine or semen, erectile dysfunction, pain in the hips, back, or chest.",
+        "Fatigue, frequent infections, easy bruising or bleeding, swollen lymph nodes, bone pain.",
+        "Changes in the size, shape, or color of a mole or other skin lesion, a sore that does not heal, itching, tenderness, or pain in the affected area."
+      ],
+      "responses": [
+        "It seems like you may be experiencing symptoms related to cancer. These symptoms can be associated with different types of cancer, including lung cancer, breast cancer, prostate cancer, leukemia, and skin cancer. Understanding these symptoms is crucial for early detection and treatment."
+      ]
+    },
+    {
+      "tag": "cancer_prevention",
+      "patterns": [
+        "How can I prevent cancer?",
+        "What are the ways to reduce the risk of cancer?",
+        "Are there any lifestyle changes to lower cancer risk?",
+        "How can I lower my chances of getting cancer?",
+        "What are the preventive measures against cancer?"
+      ],
+      "responses": [
+        "Preventing cancer involves making healthy lifestyle choices and taking proactive measures. Here are some key prevention methods:\n1. Maintain a healthy weight and adopt a balanced diet rich in fruits, vegetables, and whole grains.\n2. Avoid tobacco and limit alcohol consumption.\n3. Protect yourself from the sun and avoid excessive exposure to UV radiation.\n4. Get regular exercise and stay physically active.\n5. Follow recommended cancer screening guidelines and get vaccinated against viruses associated with cancer risk, such as HPV."
+      ]
+    },
+    {
+      "tag": "diabetes_general",
+      "patterns": [
+        "What is diabetes?",
+        "Tell me about diabetes",
+        "Explain diabetes types",
+        "How does diabetes develop?"
+      ],
+      "responses": [
+        "Diabetes is a chronic disease characterized by high levels of sugar (glucose) in the blood. It occurs when the body doesn't produce enough insulin or doesn't use it effectively."
+      ]
+    },
+    {
+      "tag": "diabetes_types",
+      "patterns": [
+        "Tell me about type 1 diabetes",
+        "What are the types of diabetes?",
+        "Explain type 2 diabetes",
+        "What are the subtypes of diabetes?",
+        "Different types of diabetes?"
+      ],
+      "responses": [
+        "Diabetes types include type 1 diabetes, type 2 diabetes, gestational diabetes, and others. Each type has specific characteristics and treatment approaches."
+      ]
+    },
+    {
+      "tag": "diabetes_symptoms",
+      "patterns": [
+        "Increased thirst, frequent urination, extreme hunger, unexplained weight loss, fatigue, irritability.",
+        "Increased thirst, frequent urination, increased hunger, fatigue, blurred vision, slow-healing sores or frequent infections.",
+        "Increased thirst, frequent urination, fatigue, nausea, blurred vision, frequent infections.",
+        "Frequent urination, increased thirst, extreme hunger, unexplained weight loss, fatigue, blurred vision."
+      ],
+      "responses": [
+        "It seems like you may be experiencing symptoms related to diabetes. These symptoms can vary depending on the type of diabetes you have, whether it's type 1, type 2, or gestational diabetes. It's essential to monitor these symptoms and consult with a healthcare professional for proper diagnosis and management."
+      ]
+    },
+
+	{
+      "tag": "diabetes_prevention",
+      "patterns": [
+        "How can I prevent diabetes?",
+        "What are the ways to reduce the risk of diabetes?",
+        "Are there any lifestyle changes to lower diabetes risk?",
+        "How can I lower my chances of getting diabetes?",
+        "What are the preventive measures against diabetes?"
+      ],
+      "responses": [
+        "Preventing diabetes involves making healthy lifestyle choices and taking proactive measures. Here are some key prevention methods:\n1. Maintain a healthy weight and adopt a balanced diet low in processed foods and added sugars.\n2. Get regular physical activity and exercise.\n3. Monitor your blood sugar levels regularly, especially if you have risk factors for diabetes.\n4. Avoid smoking and limit alcohol consumption.\n5. Follow medical advice and take prescribed medications if you have prediabetes or are at high risk for diabetes."
+      ]
+    },
+    {
+      "tag": "alzheimers_general",
+      "patterns": [
+        "What is Alzheimer's disease?",
+        "Tell me about Alzheimer's",
+        "Explain Alzheimer's types",
+        "How does Alzheimer's develop?"
+      ],
+      "responses": [
+        "Alzheimer's disease is a progressive disorder that causes brain cells to degenerate and die, resulting in memory loss and decline in cognitive abilities."
+      ]
+    },
+    {
+      "tag": "alzheimers_types",
+      "patterns": [
+        "Tell me about early-onset Alzheimer's",
+        "What are the types of Alzheimer's?",
+        "Explain late-onset Alzheimer's",
+        "What are the subtypes of Alzheimer's?",
+        "Different types of Alzheimer's disease?"
+      ],
+      "responses": [
+        "Alzheimer's disease may be categorized based on age of onset, such as early-onset Alzheimer's and late-onset Alzheimer's. It can also be classified based on the progression and symptoms."
+      ]
+    },
+    {
+      "tag": "alzheimers_symptoms",
+"patterns": [
+    "Memory loss - Forgetting recently learned information or important dates, relying on memory aids or family members for things they used to handle on their own.",
+    "Confusion - Disorientation in time and place, not recognizing familiar faces or places, forgetting the purpose of familiar objects.",
+    "Difficulty with problem-solving or completing familiar tasks - Struggling to follow a familiar recipe, difficulty managing bills or following a plan.",
+    "Changes in mood or personality - Becoming suspicious, depressed, fearful, or anxious, experiencing sudden mood swings or unexplained changes in behavior.",
+    "Withdrawal from social activities - Avoiding social interactions or neglecting hobbies and activities they once enjoyed, preferring to be alone or experiencing difficulty in social situations."
+],
+      "responses": [
+        "It seems like you may be experiencing symptoms related to Alzheimer's disease. These symptoms typically include memory loss, confusion, difficulty with problem-solving or completing familiar tasks, changes in mood or personality, and withdrawal from social activities. Early detection and management are crucial for improving the quality of life of individuals with Alzheimer's."
+      ]
+    },
+	{
+      "tag": "alzheimers_prevention",
+      "patterns": [
+        "How can I prevent Alzheimer's disease?",
+        "What are the ways to reduce the risk of Alzheimer's?",
+        "Are there any lifestyle changes to lower Alzheimer's risk?",
+        "How can I lower my chances of getting Alzheimer's?",
+        "What are the preventive measures against Alzheimer's?"
+      ],
+      "responses": [
+        "While there's no proven way to prevent Alzheimer's disease, you can reduce your risk through healthy lifestyle choices and brain-healthy habits. Here are some key prevention methods:\n1. Stay mentally and socially active by engaging in stimulating activities and maintaining social connections.\n2. Follow a heart-healthy diet rich in fruits, vegetables, and omega-3 fatty acids.\n3. Exercise regularly, including both aerobic and strength training.\n4. Get quality sleep and manage stress effectively.\n5. Stay mentally and emotionally resilient, and seek help for depression or anxiety if needed."
+      ]
+    },
+    {
+      "tag": "hypertension_general",
+      "patterns": [
+        "What is hypertension?",
+        "Tell me about hypertension",
+        "Explain high blood pressure",
+        "How does hypertension develop?"
+      ],
+      "responses": [
+        "Hypertension, or high blood pressure, is a condition where the force of the blood against the artery walls is consistently too high. It can lead to serious health problems if left untreated."
+      ]
+    },
+    {
+      "tag": "hypertension_types",
+      "patterns": [
+        "Tell me about primary hypertension",
+        "What are the types of hypertension?",
+        "Explain secondary hypertension",
+        "What are the subtypes of hypertension?",
+        "Different types of high blood pressure?"
+      ],
+      "responses": [
+        "Hypertension may be classified as primary hypertension, which has no identifiable cause, and secondary hypertension, which is caused by an underlying condition such as kidney disease or hormonal disorders."
+      ]
+    },
+    {
+      "tag": "hypertension_symptoms",
+  "patterns": [
+    "Severe headache - Intense and persistent headaches, especially at the back of the head or in the morning upon waking.",
+    "Chest pain - Tightness, discomfort, or pressure in the chest area, which may radiate to the neck, jaw, back, or arms.",
+    "Difficulty breathing - Shortness of breath, especially during physical exertion or when lying flat, which may indicate heart or lung complications."
+  ],
+      "responses": [
+        "Hypertension is often asymptomatic, but severe cases or hypertensive crises may present symptoms such as severe headache, chest pain, difficulty breathing, visual changes, and nosebleeds."
+      ]
+    },
+	{
+      "tag": "hypertension_prevention",
+      "patterns": [
+        "How can I prevent hypertension?",
+        "What are the ways to reduce the risk of high blood pressure?",
+        "Are there any lifestyle changes to lower hypertension risk?",
+        "How can I lower my chances of getting hypertension?",
+        "What are the preventive measures against hypertension?"
+      ],
+      "responses": [
+        "Preventing hypertension involves adopting a healthy lifestyle and making smart choices. Here are some key prevention methods:\n1. Maintain a healthy weight and follow a balanced diet low in sodium, saturated fats, and cholesterol.\n2. Limit alcohol consumption and avoid excessive drinking.\n3. Exercise regularly and stay physically active.\n4. Manage stress through relaxation techniques and coping mechanisms.\n5. Monitor your blood pressure regularly and follow medical advice for its management if needed."
+      ]
+    },
+    {
+      "tag": "stroke_general",
+      "patterns": [
+        "What is a stroke?",
+        "Tell me about strokes",
+        "Explain stroke types",
+        "How does a stroke develop?"
+      ],
+      "responses": [
+        "A stroke occurs when the blood supply to part of the brain is interrupted or reduced, depriving brain tissue of oxygen and nutrients. This can result in brain damage and potentially permanent disability or death."
+      ]
+    },
+    {
+      "tag": "stroke_types",
+      "patterns": [
+        "Tell me about ischemic stroke",
+        "What are the types of strokes?",
+        "Explain hemorrhagic stroke",
+        "What are the subtypes of stroke?",
+        "Different types of brain strokes?"
+      ],
+      "responses": [
+        "Strokes may be classified as ischemic stroke, caused by a blockage in a blood vessel supplying the brain, or hemorrhagic stroke, caused by bleeding in the brain. Each type has specific characteristics and treatment approaches."
+      ]
+    },
+    {
+      "tag": "stroke_symptoms",
+  "patterns": [
+    "Sudden numbness or weakness of the face, arm, or leg, especially on one side of the body - This unilateral weakness or paralysis is a hallmark symptom of stroke.",
+    "Difficulty understanding speech or speaking - Stroke can cause slurred speech or difficulty in finding the right words.",
+    "Loss of balance or coordination - Stroke may lead to sudden dizziness, loss of balance, or difficulty walking."
+  ],
+      "responses": [
+        "Symptoms of a stroke may include sudden numbness or weakness of the face, arm, or leg, especially on one side of the body, confusion, trouble speaking or understanding speech, difficulty walking, dizziness, and severe headache."
+      ]
+    },
+	{
+      "tag": "stroke_prevention",
+      "patterns": [
+        "How can I prevent strokes?",
+        "What are the ways to reduce the risk of stroke?",
+        "Are there any lifestyle changes to lower stroke risk?",
+        "How can I lower my chances of getting a stroke?",
+        "What are the preventive measures against strokes?"
+      ],
+      "responses": [
+        "Preventing strokes involves making healthy lifestyle choices and managing underlying health conditions. Here are some key prevention methods:\n1. Control high blood pressure, cholesterol levels, and diabetes through medication and lifestyle changes.\n2. Maintain a healthy weight and follow a balanced diet low in saturated fats, trans fats, and cholesterol.\n3. Exercise regularly and stay physically active.\n4. Avoid smoking and limit alcohol consumption.\n5. Monitor your health regularly and seek medical attention for any warning signs or risk factors associated with strokes."
+      ]
+    },
+    {
+      "tag": "send_off",
+      "patterns": ["Thank you", "Goodbye", "See you later", "Farewell"],
+      "responses": ["You're welcome! If you have more cybersecurity questions, feel free to ask. Goodbye!"]
+    },
+    {
+      "tag": "prescription",
+      "patterns": [
+        "I need a refill on my prescription",
+        "Can I get a refill for my medication?",
+        "How do I refill my prescription?"
+      ],
+      "responses": [      
+        "Prescription refills cannot be done through this chat. However, I can provide you with the contact information for our pharmacy at [phone number]."
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "Do you accept my insurance?",
+        "What insurances do you take?",
+        "Billing question"
+      ],
+      "responses": [
+        "We accept a variety of insurance plans. To confirm if we accept yours, please call us at 0722647564 with your insurance information.",
+        "For billing inquiries, it's best to contact our billing department directly at 0789345789."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is your clinic located?",
+        "What's your address?",
+        "How can I get to your clinic?",
+        "Where are you located?"
+      ],
+      "responses": [
+        "Our clinic is located at Siwaka Plaza,Madaraka. You can find directions on our website at wwww.luluhospital.com."
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "I need to schedule an appointment",
+        "Can I book an appointment?",
+        "How can I make an appointment?",
+        "Schedule me for a visit"
+      ],
+      "responses": [
+        "Absolutely! Would you like to schedule for a specific doctor or for any available doctor?",
+        "Sure, to schedule an appointment, you can call us at 0722647564 or visit our website at wwww.luluhospital.com].",
+        "For appointments, I can't assist directly yet. However, I can tell you our clinic hours are from 8am - 9pm."
+      ]
+    },
+    {
+      "tag": "not_understood",
+      "patterns": [
+        "**Any unrecognizable user query**"  ],
+      "responses": [
+        "I apologize, I may not have understood. Can you rephrase your question?",
+        "I'm still under development and learning new things every day. Is there another way I can help you?"
+      ]
+    }
+
+  ]
+}
+
+  
+
