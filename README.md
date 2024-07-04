@@ -12,6 +12,9 @@ The chatbot is divided into five python files. Each python file performs a task 
 
 # implementation 
 Run the command:
+
 pip install -r requirements.txt
+
 Run the code:
+
 python gui.py
